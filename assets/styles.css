@@ -83,9 +83,39 @@ box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
 }
 
 
+.carimg {
+  height: 100vh;
+  object-fit: cover;
+}
 
+/*
+@media screen and (min-width: 400px) {
+ 
+  .carimg {
+    height: 100vh;
+  }
+  body {
+    background-color: lightgreen;
+  }
+}
 
+@media screen and (min-width: 800px) {
+  .carimg {
+    height: 100vh;
+  }
+  body {
+    background-color: lavender;
+  }
+}
 
+@media screen and (min-width: 990px) {
+  .carimg {
+    height: 100vh;
+  }
+  body {
+    background-color: red;
+  }
+}*/
 
 
 
