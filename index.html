@@ -135,7 +135,7 @@
 
 
   <!-- ABOUT  START-->
-  <section id="about" class="about"><div class="section-title">
+  <section id="about" class="about" data-aos="fade-up"><div class="section-title">
     <br><br><br>
     <h2>ABOUT US</h2>
     <p class="px-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
@@ -144,7 +144,7 @@
       <a href="#" class="btn-learn-more px-3 py-2">Learn More</a>
   </div>
 </section>
-  <section id="counts" class="counts section-bg">
+  <section id="counts"  data-aos="fade-up" class="counts section-bg">
     <div class="container">
 
       <div class="row justify-content-end">
@@ -344,15 +344,15 @@
           <img src="assets/images/clients/client-1.png" class="img-fluid" alt="">
         </div>
 
-        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
+        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="300">
           <img src="assets/images/clients/client-2.png" class="img-fluid" alt="">
         </div>
 
-        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
+        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="500">
           <img src="assets/images/clients/client-3.png" class="img-fluid" alt="">
         </div>
 
-        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="400">
+        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="700">
           <img src="assets/images/clients/client-4.png" class="img-fluid" alt="">
         </div>
       </div>
@@ -478,7 +478,10 @@
   </script>
   <script type="text/javascript" src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script type="text/javascript">
-      AOS.init();
+      AOS.init({
+   duration: 800,
+   once: true,
+});
     
   </script>
 </body>
