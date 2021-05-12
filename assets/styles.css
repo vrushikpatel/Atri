@@ -10,7 +10,9 @@ box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
-
+/* .navbar.start-style{
+  background-color: transparent; 
+}*/
 .navbar.scroll-on {
 	padding: 4px 25px;
 	box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
@@ -41,7 +43,7 @@ box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
 	color: #333  !important;
 }
 .nav-link.active{
-	color: #777  !important;
+	color: #8167a9  !important;
 }
 .nav-link {
 	position: relative;
@@ -66,7 +68,7 @@ box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
 	opacity: 0;
 }
 .nav-link.active:hover{
-	color: #777 !important
+	color: #8167a9 !important
 }
 .nav-link{
 	position: relative;
@@ -98,7 +100,9 @@ box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
 }
 
 .counts {
-  padding: 60px 0;
+  padding: 30px 0;
+  /*background-color: #2487ce;*/
+  margin-bottom: 30px;
 }
 
 .counts .count-box {
@@ -130,6 +134,10 @@ box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  margin-top: 0;
+}
+
 .services .icon-box {
  text-align: center;
  padding: 70px 20px 80px 20px;
@@ -150,7 +158,7 @@ box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
   }
   
   .services .icon-box .icon i {
- font-size: 36px;
+ font-size: 40px;
  transition: 0.5s;
  position: relative;
   }
