@@ -84,21 +84,18 @@ box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
 
 
 .carimg {
-  height: 100vh;
+  height: 70vh;
   object-fit: cover;
 }
 
-/*
+
 @media screen and (min-width: 400px) {
  
   .carimg {
-    height: 100vh;
-  }
-  body {
-    background-color: lightgreen;
+    height: 80vh;
   }
 }
-
+/*
 @media screen and (min-width: 800px) {
   .carimg {
     height: 100vh;
